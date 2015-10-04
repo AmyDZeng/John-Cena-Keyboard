@@ -54,7 +54,7 @@ public class SimpleIME extends InputMethodService
             case Keyboard.KEYCODE_DELETE:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_DELETE);
                 mp.pause();
-                mp.reset();
+                //mp.reset();
                 break;
             default:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_STANDARD);
